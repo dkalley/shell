@@ -1,4 +1,4 @@
-The shell program consists of a shell.c file and a header folder myshell which contains 4 header files:
+The shell program consists of a shell.c file and a header directory 'myshell' which contains 4 header files:
   builtin.h
   execute.h
   input.h
