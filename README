@@ -4,7 +4,7 @@ The shell program consists of a shell.c file and a header directory 'myshell' wh
   input.h
   shell.h
 
-The shell does depend on an external library readline. This can be downloaded using:
+The shell does depend on the external library readline. This can be downloaded using:
   sudo apt-get install libreadline6 libreadline6-dev
 
 A precompiled shell is also provided to avoid any dependency issues. 
