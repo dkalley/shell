@@ -1,0 +1,21 @@
+The shell program consists of a shell.c file and a header folder myshell which contains 4 header files:
+  builtin.h
+  execute.h
+  input.h
+  shell.h
+
+The shell does depend on an external library readline. This can be downloaded using:
+  sudo apt-get install libreadline6 libreadline6-dev
+
+A precompiled shell is also provided to avoid any dependency issues. 
+
+The presentation slides are included in the repo as well as a makefile. 
+
+To genearte a new executable use the makefile provided:
+  'make'
+
+To launch the shell type:
+  ./shell
+
+To remove the shell:
+  'make clean'
